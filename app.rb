@@ -9,6 +9,14 @@ get '/' do
   erb :index
 end
 
+get '/merchants' do
+  erb :merchants
+end
+
+get '/performers' do
+  erb :performers
+end
+
 post '/' do
 from = Email.new(email: params['email'])
 to = Email.new(email: 'patrickcolleton@gmail.com')
