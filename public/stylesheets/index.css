@@ -3,6 +3,17 @@
 }
 
 #navbar{
+  position: fixed;
+}
+
+#perfcontainer{   
   width: 100%;
-  font-size: 50px;
+  height: auto;
+  background-image: url("/public/img/performers.jpg");
+}
+
+#merchcontainer{
+  width: 100%;
+  height: auto;
+  background-image: url("/public/img/merchants.jpg");
 }
